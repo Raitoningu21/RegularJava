@@ -33,4 +33,13 @@ public class Regular
         Matcher matcher = pattern.matcher(str);
         return matcher.matches();
     }
+
+    public boolean isPassword(String str)
+    {
+        String patternPass = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,}$";
+
+        Pattern pattern = Pattern.compile(patternPass);
+        Matcher matcher = pattern.matcher(str);
+        return matcher.matches();
+    }
 }

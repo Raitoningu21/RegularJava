@@ -254,4 +254,88 @@ public class RegularTests
         Assert.assertFalse(ex.isUrl("http:**3k.mail.ru**"));
     }
 
+    @Test
+    public void PassCorrTest1()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isPassword("Z!1g7A1k0tw8"));
+    }
+
+    @Test
+    public void PassCorrTest2()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isPassword("Gsr&07f72KlN"));
+    }
+
+    @Test
+    public void PassCorrTest3()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isPassword("piI4d397Ph*z"));
+    }
+
+    @Test
+    public void PassCorrTest4()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isPassword("OMCuQ^9z5F@0"));
+    }
+
+    @Test
+    public void PassCorrTest5()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isPassword("pL8O1C81lZM^"));
+    }
+
+    @Test
+    public void PassCorrTest6()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isPassword("019@VAO&y8Ps"));
+    }
+
+    @Test
+    public void PassWrongTest1()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isPassword("019"));
+    }
+
+    @Test
+    public void PassWrongTest2()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isPassword("retey12"));
+    }
+
+    @Test
+    public void PassWrongTest3()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isPassword("Qwerty"));
+    }
+
+    @Test
+    public void PassWrongTest4()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isPassword("QSDFGT"));
+    }
+
+    @Test
+    public void PassWrongTest5()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isPassword("12344556"));
+    }
+
+    @Test
+    public void PassWrongTest6()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isPassword("t23hhh5"));
+    }
+
 }
