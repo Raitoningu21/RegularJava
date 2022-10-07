@@ -24,4 +24,13 @@ public class Regular
         Matcher matcher = pattern.matcher(str);
         return matcher.matches();
     }
+
+    public boolean isUrl(String str)
+    {
+        String patternUrl = "";
+
+        Pattern pattern = Pattern.compile(patternUrl);
+        Matcher matcher = pattern.matcher(str);
+        return matcher.matches();
+    }
 }

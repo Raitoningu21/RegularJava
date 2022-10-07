@@ -170,4 +170,88 @@ public class RegularTests
         Assert.assertFalse(ex.isGuid("24sh-adsdffds-bbsfd-73-cddfs"));
     }
 
+    @Test
+    public void UrlCorrTest1()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isUrl("https://3k.ucoz.org/forum/2-76-1"));
+    }
+
+    @Test
+    public void UrlCorrTest2()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isUrl("https://3k.mail.ru/"));
+    }
+
+    @Test
+    public void UrlCorrTest3()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isUrl("https://www.itranslit.com/slugify/"));
+    }
+
+    @Test
+    public void UrlCorrTest4()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isUrl("https://www.guidgenerator.com/online-guid-generator.aspx"));
+    }
+
+    @Test
+    public void UrlCorrTest5()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isUrl("https://tools.icoder.uz/uuid-validator.php"));
+    }
+
+    @Test
+    public void UrlCorrTest6()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isUrl("https://www.lastpass.com/features/password-generator"));
+    }
+
+    @Test
+    public void UrlWrongTest1()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isUrl("httspd://3k.mail.ru/"));
+    }
+
+    @Test
+    public void UrlWrongTest2()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isUrl("https-3k.mail.ru-"));
+    }
+
+    @Test
+    public void UrlWrongTest3()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isUrl("https://b"));
+    }
+
+    @Test
+    public void UrlWrongTest4()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isUrl("https:/3k"));
+    }
+
+    @Test
+    public void UrlWrongTest5()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isUrl("3k.mail.ru"));
+    }
+
+    @Test
+    public void UrlWrongTest6()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isUrl("http:**3k.mail.ru**"));
+    }
+
 }
