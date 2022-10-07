@@ -27,7 +27,7 @@ public class Regular
 
     public boolean isUrl(String str)
     {
-        String patternUrl = "";
+        String patternUrl = "\\b(https?)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]";
 
         Pattern pattern = Pattern.compile(patternUrl);
         Matcher matcher = pattern.matcher(str);

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="049df923-0e0b-4594-8a8f-c046e119d362" name="Changes" comment="GuidValid">
+    <list default="true" id="049df923-0e0b-4594-8a8f-c046e119d362" name="Changes" comment="UrlTests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Regular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Regular.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RegularTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegularTests.java" afterDir="false" />
@@ -43,12 +43,22 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RegularTests">
+  <component name="RunManager" selected="JUnit.RegularTests.UrlWrongTest3">
     <configuration name="RegularTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RegularJava" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RegularTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegularTests.UrlWrongTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RegularJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegularTests" />
+      <option name="METHOD_NAME" value="UrlWrongTest3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,23 +93,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegularTests.ipWrongTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RegularJava" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegularTests" />
-      <option name="METHOD_NAME" value="ipWrongTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegularTests.UrlWrongTest3" />
         <item itemvalue="JUnit.RegularTests" />
         <item itemvalue="JUnit.RegularTests.ipCorrTest2" />
         <item itemvalue="JUnit.RegularTests.ipCorrTest3" />
         <item itemvalue="JUnit.RegularTests.ipCorrTest5" />
-        <item itemvalue="JUnit.RegularTests.ipWrongTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665151820998</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="UrlTests">
+      <created>1665155160883</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665155160883</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +174,7 @@
     <MESSAGE value="PatternIP" />
     <MESSAGE value="TestsforGuid" />
     <MESSAGE value="GuidValid" />
-    <option name="LAST_COMMIT_MESSAGE" value="GuidValid" />
+    <MESSAGE value="UrlTests" />
+    <option name="LAST_COMMIT_MESSAGE" value="UrlTests" />
   </component>
 </project>

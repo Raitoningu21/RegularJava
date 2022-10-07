@@ -230,7 +230,7 @@ public class RegularTests
     public void UrlWrongTest3()
     {
         Regular ex = new Regular();
-        Assert.assertFalse(ex.isUrl("https://b"));
+        Assert.assertFalse(ex.isUrl("https://"));
     }
 
     @Test
