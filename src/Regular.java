@@ -16,7 +16,9 @@ public class Regular
 
     public boolean isGuid(String str)
     {
-        String patternIp = "";
+        String patternIp = "^[{]?[0-9a-fA-F]{8}"
+                + "-([0-9a-fA-F]{4}-)"
+                + "{3}[0-9a-fA-F]{12}[}]?$";
 
         Pattern pattern = Pattern.compile(patternIp);
         Matcher matcher = pattern.matcher(str);
