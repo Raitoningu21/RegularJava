@@ -45,4 +45,46 @@ public class RegularTests
         Assert.assertTrue(ex.isIp("212.65.88.99"));
     }
 
+    @Test
+    public void ipWrongTest1()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isIp("256.256.256.256"));
+    }
+
+    @Test
+    public void ipWrongTest2()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isIp("0.0.0.0"));
+    }
+
+    @Test
+    public void ipWrongTest3()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isIp(" 56.122.14.1"));
+    }
+
+    @Test
+    public void ipWrongTest4()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isIp("45/16/14/77"));
+    }
+
+    @Test
+    public void ipWrongTest5()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isIp("144.1234.11.55"));
+    }
+
+    @Test
+    public void ipWrongTest6()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isIp("9/ 12314.4 .55"));
+    }
+
 }
