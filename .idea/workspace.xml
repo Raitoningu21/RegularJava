@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="049df923-0e0b-4594-8a8f-c046e119d362" name="Changes" comment="CorrectTestIp">
+    <list default="true" id="049df923-0e0b-4594-8a8f-c046e119d362" name="Changes" comment="IncorrectTestsIp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegularJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RegularJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Regular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Regular.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RegularTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegularTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,16 +34,76 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Java/junit-4.13.2.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/Java/junit-4.9.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="JUnit.RegularTests">
+    <configuration name="RegularTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RegularJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegularTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegularTests.ipCorrTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RegularJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegularTests" />
+      <option name="METHOD_NAME" value="ipCorrTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegularTests.ipCorrTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RegularJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegularTests" />
+      <option name="METHOD_NAME" value="ipCorrTest3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegularTests.ipCorrTest5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RegularJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegularTests" />
+      <option name="METHOD_NAME" value="ipCorrTest5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegularTests.ipWrongTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RegularJava" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegularTests" />
+      <option name="METHOD_NAME" value="ipWrongTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RegularTests" />
+        <item itemvalue="JUnit.RegularTests.ipCorrTest2" />
+        <item itemvalue="JUnit.RegularTests.ipCorrTest3" />
+        <item itemvalue="JUnit.RegularTests.ipCorrTest5" />
+        <item itemvalue="JUnit.RegularTests.ipWrongTest2" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665138947822</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="IncorrectTestsIp">
+      <created>1665139689866</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665139689866</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,6 +143,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CorrectTestIp" />
-    <option name="LAST_COMMIT_MESSAGE" value="CorrectTestIp" />
+    <MESSAGE value="IncorrectTestsIp" />
+    <option name="LAST_COMMIT_MESSAGE" value="IncorrectTestsIp" />
   </component>
 </project>
