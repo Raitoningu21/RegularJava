@@ -87,4 +87,87 @@ public class RegularTests
         Assert.assertFalse(ex.isIp("9/ 12314.4 .55"));
     }
 
+    @Test
+    public void GuidCorrTest1()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isGuid("941b6a97-ff5b-4e8a-bf29-36e72c59cb67"));
+    }
+
+    @Test
+    public void GuidCorrTest2()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isGuid("8009c62b-d398-4b12-9de6-2634605d953a"));
+    }
+
+    @Test
+    public void GuidCorrTest3()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isGuid("0913fef2-d7fd-488f-940b-6420fd8cd2eb"));
+    }
+
+    @Test
+    public void GuidCorrTest4()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isGuid("24c192b5-addb-43bb-9373-9b3ccd1dfd13"));
+    }
+
+    @Test
+    public void GuidCorrTest5()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isGuid("97da9576-bf48-49a6-837e-c8068349c082"));
+    }
+
+    @Test
+    public void GuidCorrTest6()
+    {
+        Regular ex = new Regular();
+        Assert.assertTrue(ex.isGuid("1b19554d-c6e0-475d-8c6d-13f841b60ca8"));
+    }
+
+    @Test
+    public void GuidWrongTest1()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isGuid("1b19554d-c6e0-475d-8c6d-13f841b60ca"));
+    }
+
+    @Test
+    public void GuidWrongTest2()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isGuid("1b193412554d-c6e130-475d415-8c6d6-13f84176b60ca8"));
+    }
+    @Test
+    public void GuidWrongTest3()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isGuid("97da9576 bf48 49a6 837e c8068349c082"));
+    }
+
+    @Test
+    public void GuidWrongTest4()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isGuid("97hh9576-hh48-49h6-837h-h8068349h082"));
+    }
+
+    @Test
+    public void GuidWrongTest5()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isGuid("24-ad-bb-73-cd"));
+    }
+
+    @Test
+    public void GuidWrongTest6()
+    {
+        Regular ex = new Regular();
+        Assert.assertFalse(ex.isGuid("24sh-adsdffds-bbsfd-73-cddfs"));
+    }
+
 }

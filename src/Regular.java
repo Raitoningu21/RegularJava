@@ -13,4 +13,13 @@ public class Regular
         Matcher matcher = pattern.matcher(str);
         return matcher.matches();
     }
+
+    public boolean isGuid(String str)
+    {
+        String patternIp = "";
+
+        Pattern pattern = Pattern.compile(patternIp);
+        Matcher matcher = pattern.matcher(str);
+        return matcher.matches();
+    }
 }
